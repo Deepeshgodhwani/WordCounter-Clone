@@ -3,7 +3,14 @@
 module.exports = {
   content: ["./src/*","./src/components/*"],
   theme: {
-    extend: {},
+    extend: {
+      borderWidth:{
+        1:'1px'
+      },
+      screens:{
+        sm:"540px"
+      }
+    },
   },
   plugins: [],
 }

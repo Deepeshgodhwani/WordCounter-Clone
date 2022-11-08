@@ -1,10 +1,6 @@
 import React ,{ useState }from 'react'
 
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from "react-router-dom";
+
 
 import './App.css';
 
@@ -14,23 +10,7 @@ import Textarea from './components/textarea';
 
 
 function App() {
-    const [mode, setmode] = useState('light')
    
-    const changeMode = ()=>{
-       
-        if(mode==='light'){
-            
-            document.body.style.background='black'
-            setmode('dark')
-            showAlert("Enabled dark mode","success")
-        }else{
-
-          document.body.style.background='white'
-          setmode('light')
-          showAlert("Enabled light mode","success")
-        }
-    }
-
     const [alert, setalert] = useState(null)
 
     const showAlert= (message,type) =>{
@@ -47,17 +27,13 @@ function App() {
 
   return ( 
     
-    <Router>
-       <Navbar title="TextUtils"   mode={changeMode}/>
+   <>
+       <Navbar title="TextUtils"/>
        <Alert alert={alert}/> 
-       <div className='container  my-3'>
-       <Routes>
-          <Route exact path="/" element={<Textarea mode={mode} alert={alert} showAlert={showAlert}/>}/>  
-       </Routes>
+       <div className='container my-3'>
+          <Textarea  alert={alert} showAlert={showAlert}/>  
       </div> 
-    </Router>
-    
-  
+    </>
   );
 }
 

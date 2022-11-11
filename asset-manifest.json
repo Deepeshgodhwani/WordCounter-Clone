@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e45478d9.css",
+    "main.js": "/static/js/main.dbbac3cc.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/verified.png": "/static/media/verified.21e91f989208922404a9.png",
+    "static/media/wc-logo.webp": "/static/media/wc-logo.d67592576a2b3b1508e3.webp",
+    "index.html": "/index.html",
+    "main.e45478d9.css.map": "/static/css/main.e45478d9.css.map",
+    "main.dbbac3cc.js.map": "/static/js/main.dbbac3cc.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e45478d9.css",
+    "static/js/main.dbbac3cc.js"
+  ]
+}

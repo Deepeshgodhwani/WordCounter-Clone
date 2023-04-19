@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
 </p>
 
-<h3 align="center"><a href="https://deepeshgodwani.github.io/WordCounter-Clone/"><strong>Want to see live preview »</strong></a></h3>
+<h3 align="center"><a href="https://deepeshgodhwani.github.io/WordCounter-Clone/"><strong>Want to see live preview »</strong></a></h3>
 
 
   ![WordCount poster](https://res.cloudinary.com/dynjwlpl3/image/upload/v1676463663/Projects%20readme/word-counter_snvnr1.png)
